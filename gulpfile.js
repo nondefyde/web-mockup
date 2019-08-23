@@ -12,7 +12,7 @@ gulp.task('browserSync', () => {
 // keeps gulp from crashing for scss errors
 gulp.task('sass', () => {
     console.log('compiling.....');
-    return gulp.src('./sass/**/*.scss')
+    return gulp.src('./src/**/*.scss')
         .pipe(sass({ errLogToConsole: true }))
         .pipe(gulp.dest('public/css'))
         .pipe(browserSync.stream());
@@ -24,7 +24,7 @@ gulp.task('serve', gulp.series(['sass'], () => {
         server: "./public"
     });
     
-    gulp.watch('./sass/**/*.scss', gulp.series(['sass']));
+    gulp.watch('./src/**/*.scss', gulp.series(['sass']));
     gulp.watch('./public/**/ /*.html').on('change', browserSync.reload);
 }));
 
