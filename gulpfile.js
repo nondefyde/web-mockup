@@ -25,7 +25,7 @@ gulp.task('serve', gulp.series(['sass'], () => {
     });
     
     gulp.watch('./src/**/*.scss', gulp.series(['sass']));
-    gulp.watch('./public/**/ /*.html').on('change', browserSync.reload);
+    gulp.watch('./public/**/*.html').on('change', browserSync.reload);
 }));
 
 gulp.task('default', gulp.series(['serve']));
