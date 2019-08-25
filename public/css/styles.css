@@ -1,4 +1,95 @@
+.authentication {
+  width: 100%; }
+  .authentication .back-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #3c88b5; }
+  .authentication .back-arrow {
+    width: 24px;
+    height: 24px; }
+    .authentication .back-arrow i {
+      color: #3c88b5; }
+  .authentication .auth-wrapper {
+    height: 100%;
+    padding: 50px 0 0 0; }
+    .authentication .auth-wrapper .auth-content {
+      height: 100%;
+      width: 400px;
+      margin: 0 auto; }
+      .authentication .auth-wrapper .auth-content .logo {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+        text-align: center; }
+      .authentication .auth-wrapper .auth-content .btn-primary {
+        background-color: #3c88b5;
+        width: 100%;
+        height: 48px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0;
+        color: #e8eff7; }
+      .authentication .auth-wrapper .auth-content .auth-tab div {
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+        color: #3c88b5;
+        text-transform: uppercase;
+        padding-bottom: 5px; }
+        .authentication .auth-wrapper .auth-content .auth-tab div.active {
+          border-bottom: 3px #3c88b5 solid; }
+      .authentication .auth-wrapper .auth-content .auth-form form {
+        width: 100%;
+        margin-top: 20px; }
+        .authentication .auth-wrapper .auth-content .auth-form form .form-control {
+          width: 100%;
+          height: 48px;
+          border-radius: 0;
+          margin-bottom: 8px;
+          border: solid 1px #3c88b5; }
+        .authentication .auth-wrapper .auth-content .auth-form form input::-moz-placeholder {
+          width: 206px;
+          height: 46px;
+          font-size: 14px;
+          color: #b5d6ec; }
+        .authentication .auth-wrapper .auth-content .auth-form form input::-webkit-input-placeholder {
+          width: 206px;
+          height: 46px;
+          font-size: 14px;
+          color: #b5d6ec; }
+        .authentication .auth-wrapper .auth-content .auth-form form input:-ms-input-placeholder {
+          width: 206px;
+          height: 46px;
+          font-size: 14px;
+          color: #b5d6ec; }
+        .authentication .auth-wrapper .auth-content .auth-form form input::placeholder {
+          width: 206px;
+          height: 46px;
+          font-size: 14px;
+          color: #b5d6ec; }
+        .authentication .auth-wrapper .auth-content .auth-form form input:focus {
+          box-shadow: none; }
+      .authentication .auth-wrapper .auth-content .forget-password {
+        width: 100%;
+        opacity: 0.5;
+        font-size: 14px;
+        text-align: center;
+        color: #3c88b5;
+        padding: 20px 0; }
+      .authentication .auth-wrapper .auth-content .divider {
+        padding: 0 15px; }
+        .authentication .auth-wrapper .auth-content .divider span {
+          font-size: 14px;
+          color: #3c88b5;
+          width: 6%; }
+          .authentication .auth-wrapper .auth-content .divider span.line {
+            height: 2px;
+            width: 47%;
+            background-color: #b5d6ec; }
+
 body {
-  background: #f2f2f2; }
-  body h1 {
-    color: green; }
+  background: #e8eff7;
+  font-family: Roboto, sans-serif; }

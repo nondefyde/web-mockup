@@ -1,8 +1,10 @@
-$dark-color: #f2f2f2;
+$bg-color: #e8eff7;
+$accent-color: #3c88b5;
+$accent-light-color: #b5d6ec;
+
+@import "./auth";
 
 body {
-  background: $dark-color;
-  h1 {
-    color: green;
-  }
+  background: $bg-color;
+  font-family: Roboto, sans-serif;
 }

@@ -10,12 +10,67 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
-<div class="row">
-    <div class="col-lg-6">Hello to gulp</div>
-    <div class="col-lg-6">
-        Hello to gulp
-        <i class="fa fa-home"></i>
+<section class="authentication">
+    <div class="ml-2 p-3">
+        <span class="back-arrow"><i class="fa fa-arrow-left"></i></span>
+        <span class="back-text">Go back to home</span>
     </div>
-</div>
+    <div class="container auth-wrapper">
+        <div class="auth-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center mb-5">
+                        <img class="logo" src="/images/group.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row auth-tab">
+                <div class="col">
+                    <div class="text-center active">Login</div>
+                </div>
+                <div class="col">
+                    <div class="text-center active">Signup</div>
+                </div>
+            </div>
+            <div class="row auth-form">
+                <div class="col-sm">
+                    <form>
+                        <div class="form-group m-0">
+                            <input type="email" class="form-control" placeholder="Email">
+                            <small class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group m-0">
+                            <input type="password" class="form-control" placeholder="Password">
+                            <small class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group m-0">
+                            <input type="password" class="form-control" placeholder="Repeat Password">
+                            <small class="form-text text-muted"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="forget-password text-center">Forgot Password?</div>
+                </div>
+            </div>
+            <div class="row divider">
+                <span class="line d-flex align-self-center"></span>
+                <span class="text-center">or</span>
+                <span class="line d-flex align-self-center"></span>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-facebook-f"></i></button>
+                </div>
+                <div class="col">
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-google-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>

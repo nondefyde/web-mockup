@@ -2,13 +2,6 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 
-gulp.task('browserSync', () => {
-    browserSync.init({
-        server: {
-            baseDir: "./public"
-        }
-    });
-});
 // keeps gulp from crashing for scss errors
 gulp.task('sass', () => {
     console.log('compiling.....');
